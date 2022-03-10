@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            span, div {
+                border: 1px solid red;
+                background-color: yellow;
+            }
+            .top {
+                position: relative;
+                top: 5px;
+                z-index: 1;
+            }
+            .left {
+                position: relative;
+                left: 5px;
+            }
+            .bottom {
+                position: relative;
+                bottom: 5px;
+            }
+            .right {
+                position: relative;
+                right: 5px;
+            }
+
+            #absolute {
+                background: yellow;
+                position: absolute;
+                right: 0;
+            }
+
+            #parent {
+                position: relative;
+                width: 100px;
+                height: 100px;
+                background: skyblue;
+            }
+
+            /* 위로 떠서 static이 아닌 (조)부모 오른쪽에 붙는다. (컨텐츠에 맞게 width 사이즈 자동 조정) */
+            #child {
+                position: absolute;
+                top: 10px;
+                right: 0;
+            }
+
+            /* 위로 떠서 static이 아닌 (조)부모 하단, 오른쪽에 붙는다. (컨텐츠에 맞게 width 사이즈 자동 조정) 
+               + 스크롤에 관계없이 화면 특정 위치에 고정 */
+            #fixed {
+                background: yellow;
+                position: fixed;
+                bottom: 0;
+                right: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <span class="top">span1</span>
+        <span class="right">span2</span>
+        <span class="bottom">span3</span>
+        <div class="left">div</div>
+
+        <hr />
+
+        <div>
+            <div id="absolute">absolute</div>
+        </div>
+        <div id="parent">
+             <div id="child">children</div>
+        </div>
+
+        <hr />
+
+        <div>
+        <!-- -->
+        <div id="fixed">fixed</div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </body>
+</html>
