@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                width: 800px;
+                border: 1px solid gray;
+            }
+            header {
+                border-bottom: 1px solid gray;
+                padding-left: 20px;
+            }
+            footer {
+                border-top: 1px solid gray;
+                padding: 20px;
+                text-align: center;
+            }
+            .content {
+                display: flex;
+            }
+            .content nav {
+                border-right: 1px solid gray;
+            }
+            .content aside {
+                border-left: 1px solid gray;
+            }
+            @media(max-width: 500px) {
+                .content {
+                    flex-direction: column;
+                }
+                .content nav, .content aside {
+                    border: none;
+                    flex-basis: auto;
+                }
+                main {
+                    order: 0;
+                }
+                nav {
+                    order: 1;
+                }
+                aside {
+                    order: 2;
+                }
+            }
+            nav, aside {
+                flex-basis: 150px;
+                flex-shrink: 0;
+            }
+            main {
+                padding: 10px;
+            }
+            nav {
+                order: 0;
+            }
+            main {
+                order: 1;
+            }
+            aside {
+                order: 2;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>생활코딩</h1>
+            </header>
+            <section class="content">
+                <nav>
+                    <ul>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javascript</li>
+                    </ul>
+                </nav>
+                <main>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum deserunt, nobis aliquam soluta corporis dicta deleniti perspiciatis. Quisquam porro excepturi voluptates quia corporis ab vitae consectetur tempore facere, debitis, nisi itaque exercitationem sapiente magnam? Nihil ea earum in cupiditate temporibus quos fugit consequatur repellendus quas reprehenderit, nemo esse exercitationem tenetur ex expedita adipisci quod unde facilis ut dolorem maxime assumenda quae! Veniam minus, culpa ullam sit nostrum doloremque repellat eos accusamus esse debitis doloribus facilis vitae, accusantium, reprehenderit dignissimos? Cupiditate, ex corporis voluptates quia ut enim iusto totam at voluptatibus tempora omnis assumenda quae consectetur impedit ullam! Voluptatem delectus nobis illo inventore molestias, repellendus id perferendis, architecto ab, odio sit ea! Necessitatibus magnam tenetur error, eveniet pariatur cupiditate exercitationem corporis nihil explicabo culpa iusto laboriosam dolorem rem quidem debitis eos harum sapiente nobis quia et? Doloribus nemo provident placeat voluptas nihil, impedit mollitia, possimus quae sed in adipisci beatae, ullam blanditiis. Magni voluptatum perferendis mollitia laboriosam, facere provident, voluptate quia aliquam, recusandae nihil nam aspernatur adipisci! Id voluptates quia dignissimos eos obcaecati et, aut sapiente ipsam expedita consequuntur debitis tenetur quibusdam a harum, dolor doloribus quod aspernatur inventore, consectetur consequatur quo laudantium labore! Quo perferendis pariatur distinctio, eius officiis recusandae repudiandae inventore non nemo! Ipsum magnam exercitationem facere id voluptate doloremque iste ut aut corrupti, ipsam, eos quaerat quia asperiores magni rerum! Dignissimos eos unde quo eligendi reiciendis hic tenetur porro velit, ipsum earum provident cum aut doloremque error non dicta architecto laudantium facere voluptatem vel beatae repellat quasi? Provident, illo explicabo deserunt esse facere unde commodi ipsam sint ea vero laborum quo incidunt, laudantium mollitia temporibus, maiores repellat. Nisi blanditiis suscipit modi laboriosam ea quos maiores molestiae quam eius! Et odit, exercitationem aspernatur doloribus vero mollitia perferendis eum itaque ea numquam. Recusandae eveniet velit debitis? Unde natus debitis eaque numquam architecto labore mollitia exercitationem a fugiat tenetur harum, blanditiis, amet, nulla temporibus esse consectetur aliquid repudiandae similique sint. Natus quisquam dignissimos odit molestias quia, commodi delectus exercitationem recusandae nemo cupiditate accusantium atque tempore cum, sed quaerat soluta dolore laborum temporibus voluptatibus enim suscipit maiores nihil dolorem magni! Laudantium doloribus cupiditate commodi dolorum eos, in officia similique quibusdam libero perferendis. Dolorem ratione sequi odit ab ut est, minus ipsum! Iure, voluptatibus? Sequi nemo recusandae repellendus sapiente eveniet, dolores assumenda inventore, minima beatae architecto, dolore quod quo excepturi delectus laudantium accusantium libero eligendi. Perspiciatis suscipit enim rem, distinctio aliquid voluptatem sequi quia cupiditate nobis voluptatum, inventore quis voluptatibus rerum! Nulla autem, rerum suscipit labore consectetur libero harum porro nobis velit consequatur expedita laborum repellendus accusamus unde ad quae, soluta eligendi beatae architecto, maiores veritatis at cum quos doloribus! Laborum, porro hic, eum neque quia quis impedit voluptatum repellendus perspiciatis eos iure veritatis totam unde doloribus similique maiores dolorum ut consequatur iusto architecto quod rem tempora explicabo. Deserunt repellat blanditiis earum quibusdam amet voluptatum id consequatur itaque? Inventore dolor pariatur deleniti veniam cumque enim velit labore dolore quidem tenetur illum laboriosam numquam fugit obcaecati fuga sunt, ut similique minima doloremque distinctio? Atque placeat quos, delectus repudiandae tempore, sint nulla facere eaque iste ab rerum nesciunt voluptatem exercitationem praesentium expedita enim laudantium vitae, hic iusto architecto mollitia dolor totam dignissimos? Magni magnam aliquid, corporis vitae omnis adipisci atque molestias velit deleniti deserunt tenetur saepe officia consequuntur maiores quo illo recusandae culpa reprehenderit autem. Alias dolorem deserunt tempore. Neque repudiandae tempore numquam deserunt laborum quod. Nihil ipsum recusandae repellendus, nostrum tenetur, fugiat quibusdam repudiandae consectetur, numquam consequuntur officiis non provident cum. Odit explicabo totam eum, minus dicta tenetur maiores illo nobis dolorem. Repellendus quibusdam quidem mollitia quia repellat in pariatur natus esse, assumenda ipsum accusantium culpa molestias doloremque nesciunt eaque dolores voluptas quisquam debitis minima nulla. Commodi, magnam asperiores nam ea, iusto nihil, repudiandae inventore tempora cumque quisquam harum enim ducimus minima nostrum facere minus fuga neque laboriosam unde ipsam. Quibusdam odio voluptates delectus corporis cum? Non aperiam vero nulla aut harum vel, labore voluptatem quos laboriosam iusto recusandae? Perferendis velit ipsa, minima omnis vitae enim? Repellendus, consequatur officiis? Sunt perferendis amet illum eveniet expedita asperiores nobis facilis ab doloribus commodi nesciunt nemo libero quaerat fugiat quo unde reiciendis similique, quisquam optio perspiciatis? Suscipit fuga explicabo debitis perspiciatis, facilis expedita sint deserunt doloremque animi impedit quae, ducimus modi dicta eveniet obcaecati exercitationem odit et dignissimos voluptatum dolorum facere totam? Magnam, voluptates quisquam suscipit sed eveniet fugit, magni sint iste temporibus dolores error cupiditate voluptate animi nostrum consectetur veritatis quis, facere optio laboriosam eos praesentium. Voluptas consequuntur ipsa quo quos? Ratione, facere delectus ipsum corporis reiciendis ut, porro molestias, sit excepturi inventore distinctio ipsam consequuntur ipsa voluptas laudantium! Nemo officiis a minus veritatis porro molestias, aut eligendi ducimus praesentium ex laudantium quis debitis sequi fugit similique dolore quia quod? Amet et minus possimus quidem officiis aliquid molestias, a expedita iste soluta deserunt pariatur maxime quibusdam ipsum quisquam voluptas minima quaerat dolores rem animi temporibus. Voluptates est temporibus tempora ut minima beatae similique accusantium id autem quaerat dolorem accusamus natus, ea perspiciatis a esse distinctio suscipit deleniti reprehenderit assumenda molestiae eius quas cum! Similique distinctio, deleniti reiciendis dolorem molestias ab exercitationem magnam nisi tempora totam pariatur minima deserunt voluptatem doloribus, iusto facere officiis eum! Quae voluptatem fugiat dolorem alias asperiores fugit, illo nemo, natus obcaecati, veniam placeat. Omnis possimus reiciendis sequi recusandae dolorum necessitatibus aperiam animi voluptatibus ea exercitationem, libero vel, quibusdam minima iste totam illo vitae veniam magni officia architecto! Cum mollitia possimus voluptatum sapiente illum soluta? Totam molestiae aliquam perferendis magnam non obcaecati suscipit consequatur. Illo ipsam nisi consequatur amet, minus recusandae dicta enim rem aperiam ad optio fuga obcaecati, laudantium similique eum distinctio beatae ipsum odit voluptatibus! Illum dicta ipsum aspernatur voluptatibus est earum nemo aliquam ducimus, aut quo, labore in? Vitae qui libero reprehenderit et voluptatum accusantium hic aspernatur consectetur quos porro quo, pariatur architecto, maxime iusto quam, alias quidem iste temporibus! Harum esse a optio placeat pariatur quas ea facilis ut possimus asperiores, quibusdam obcaecati dolor consectetur vero. Qui, commodi placeat omnis autem veniam vel dolorum aut sit ab consectetur?
+                </main>
+                <aside>
+                    AD
+                </aside>
+            </section>
+            <footer>
+                <a href="https://opentutorials.org/course/1">홈페이지</a>
+            </footer>
+        </div>
+     </body>
+</html>
