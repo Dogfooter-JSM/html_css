@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "clean-css": "^5.2.4",
+    "stylus": "^0.56.0"
+  }
+}
